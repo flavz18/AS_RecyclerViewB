@@ -65,14 +65,14 @@ public class AddMahasiswaActivity extends AppCompatActivity
 
                 String url = "https://stmikpontianak.net/011100862/tambahMahasiswa.php" +
                         "?nim=" + nim   +
-                        "&nama" + nama  +
-                        "&jenisKelamin" + jenisKelamin  +
-                        "&tempatLahir"  + tempatLahir +
-                        "&tanggalLahir" + tanggalLahir  +
-                        "&alamat"   +   alamat  +
-                        "&jp"   + jp    +
-                        "&statusPernikahan" + statusNikah   +
-                        "&tahunMasuk"   +   tahunMasuk;
+                        "&nama=" + nama  +
+                        "&jenisKelamin=" + jenisKelamin  +
+                        "&tempatLahir="  + tempatLahir +
+                        "&tanggalLahir=" + tanggalLahir  +
+                        "&alamat="   +   alamat  +
+                        "&jp="   + jp    +
+                        "&statusPernikahan=" + statusNikah   +
+                        "&tahunMasuk="   +   tahunMasuk;
 
                 Log.d("*tw*", url);
 
